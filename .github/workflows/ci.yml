@@ -33,7 +33,7 @@ jobs:
     name: Ubuntu (Swift ${{ matrix.swift }})
     runs-on: ubuntu-20.04
     steps:
-      - uses: swift-actions/setup-swift@v1
+      - uses: tryswift/setup-swift@v1
         with:
           swift-version: ${{ matrix.swift }}
       - uses: actions/checkout@v3
